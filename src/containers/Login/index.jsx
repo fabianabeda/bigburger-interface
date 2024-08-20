@@ -1,5 +1,5 @@
 import Logo from '../../assets/logo.svg';
-import {Button, Container, Form, InputContainer, LeftContainer, Link, RightContainer, Title } from './styles';
+import {Button, Container, Form, InputContainer, LeftContainer, RightContainer, Title } from './styles';
 
 export function Login(){
     return (
@@ -9,7 +9,9 @@ export function Login(){
             </LeftContainer>
             <RightContainer>
                 <Title>
-                Olá, seja bem vindo ao <span>Big Burguer!</span> Acesse com seu<span>Login e senha</span> 
+                Olá, seja bem-vindo ao <span>Big Burguer!</span> 
+                <br/>
+                Acesse com seu<span> Login e senha</span> 
                 </Title>
                 <Form>
                     <InputContainer>
@@ -20,10 +22,10 @@ export function Login(){
                         <label>Senha</label>
                         <input type="password" />
                     </InputContainer>
-                    <Link>Esqueci minha senha.</Link>
                     <Button>Entrar</Button>
                 </Form>
-                <Link>Não possui conta? Clique aqui.</Link>
+                <p>Não possui conta? <a>Clique aqui.</a>
+                </p>
             </RightContainer>
         </Container>
     );
