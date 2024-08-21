@@ -717,9 +717,10 @@ balanced-match@^1.0.0:
 "bigburger-interface@file:.":
   version "0.0.0"
   dependencies:
-    bigburger-interface "file:../../../AppData/Local/Yarn/Cache/v6/npm-bigburger-interface-0.0.0-33df0e7a-f33a-49d3-ac3d-0b47b09877fc-1724176473746/node_modules/bigburger-interface"
+    bigburger-interface "file:../../../AppData/Local/Yarn/Cache/v6/npm-bigburger-interface-0.0.0-9523b557-23d5-45bf-a7d8-33f079829412-1724201139939/node_modules/bigburger-interface"
     react "^18.3.1"
     react-dom "^18.3.1"
+    styled-components "^6.1.12"
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -1892,7 +1893,7 @@ prettier@^3.3.3:
 
 prop-types@^15.8.1:
   version "15.8.1"
-  resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
   dependencies:
     loose-envify "^1.4.0"
