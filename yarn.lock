@@ -737,7 +737,8 @@ balanced-match@^1.0.0:
   version "0.0.0"
   dependencies:
     "@hookform/resolvers" "^3.9.0"
-    bigburger-interface "file:../../../AppData/Local/Yarn/Cache/v6/npm-bigburger-interface-0.0.0-689b0d26-af39-4239-ae0b-4990cae999a5-1724603128659/node_modules/bigburger-interface"
+    axios "^1.7.5"
+    bigburger-interface "file:../../../AppData/Local/Yarn/Cache/v6/npm-bigburger-interface-0.0.0-7448bd8e-a085-41d8-bc0a-dc93fd5f6fb1-1724630002517/node_modules/bigburger-interface"
     prop-types "^15.8.1"
     react "^18.3.1"
     react-dom "^18.3.1"
@@ -805,6 +806,11 @@ chalk@^4.0.0:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
+
+clsx@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-2.1.1.tgz#eed397c9fd8bd882bfb18deab7102049a2f32999"
+  integrity sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==
 
 color-convert@^1.9.0:
   version "1.9.3"
@@ -2003,6 +2009,13 @@ react-refresh@^0.14.2:
   version "0.14.2"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.2.tgz"
   integrity sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==
+
+react-toastify@^10.0.5:
+  version "10.0.5"
+  resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-10.0.5.tgz#6b8f8386060c5c856239f3036d1e76874ce3bd1e"
+  integrity sha512-mNKt2jBXJg4O7pSdbNUfDdTsK9FIdikfsIE/yUCxbAEXl4HMyJaivrVFcn3Elvt5xvCQYhUZm+hqTIu1UXM3Pw==
+  dependencies:
+    clsx "^2.1.0"
 
 react@^18.3.1:
   version "18.3.1"
