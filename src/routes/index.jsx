@@ -1,16 +1,20 @@
-import  { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router-dom';
 
 import { Login } from '../containers/Login';
 import { Register } from '../containers/Register';
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
     {
-        path: '/login',
-        element: <Login />,
+      path: '/login',
+      element: <Login />,
     },
     {
-        path: '/cadastro',
-        element: <Register />,
+      path: '/cadastro',
+      element: <Register />,
     },
-    
-]);
+  ],
+  {
+    basename: '/bigburger-interface/',
+  }
+);
